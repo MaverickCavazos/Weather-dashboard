@@ -9,22 +9,32 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1 class="text-center p-4">Weather Dashboard</h1>
+    <header class="bg-primary">
+        <h1 class="text-white text-center p-4">Weather Dashboard</h1>
     </header>
     <div class="row">
     <div class="p-5 col-3">
         <h2>Search for a city</h2>
         <input name="searchCity" id="searchCity" type="text" placeholder="Search City"/>
-        <button type="submit" class="submit">Search</button>
+        <button type="submit" class="submit btn-primary">Search</button>
     </div>
+    
     <div class="p-5 text-left col-8">
-        <h1 class="city" id="city"></h1>
-        <h3 class="temp"></h3>
-        <h3 class="wind"></h3>
-        <h3 class="humidity"></h3>
+        <div class="border border-dark oneday p-3 m-4">
+            <h1 class="city" id="city"></h1>
+            <h3 class="temp"></h3>
+            <h3 class="wind"></h3>
+            <h3 class="humidity"></h3>
+        </div>
+        <div class="title p-3">
+
+        </div>
+        <div class="row fiveday">
+
+        </div>
     </div>
     </div>
+   
 
 
 
